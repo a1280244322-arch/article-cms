@@ -1,44 +1,49 @@
-# big-event
+# 大事件文章管理系统（前端）
 
-This template should help get you started developing with Vue 3 in Vite.
+## 项目简介
 
-## Recommended IDE Setup
+大事件是一个基于 Vue 3 开发的文章内容管理后台前端项目，采用 Vue Router 实现页面路由管理，Pinia 实现用户状态管理，Element Plus 构建后台管理界面，并通过 Axios 与后端 API 进行数据交互。
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+项目围绕文章管理业务展开，实现了用户登录注册、文章分类管理、文章发布与编辑、个人信息维护等功能，具备较为完整的后台管理界面和前端业务交互流程。
 
-## Recommended Browser Setup
+**本仓库主要展示前端部分的开发实现，后端服务不包含在本仓库中。**
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## 技术栈
 
-## Customize configuration
+- **Vue 3**：基于 Composition API 开发页面与业务组件。
+- **Vue Router**：页面路由管理与登录状态检查。
+- **Pinia**：用户信息及 Token 状态管理与持久化。
+- **Element Plus**：后台管理界面及表单组件。
+- **Axios**：HTTP 请求封装、Token 携带及统一错误处理。
+- **Vue Quill**：文章富文本编辑。
+- **SCSS**：页面样式组织。
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 主要功能
 
-## Project Setup
+**用户管理**
+- 用户注册、登录和退出。
+- 基于 Token 的登录状态管理及路由访问控制。
+- 个人资料修改、头像更新及密码修改。
 
-```sh
-pnpm install
-```
+**文章管理**
+- 文章列表展示、分页查询及条件筛选。
+- 文章新增、编辑与删除。
+- 文章发布与草稿保存。
+- 文章封面上传预览及富文本内容编辑。
 
-### Compile and Hot-Reload for Development
+**文章分类**
+- 文章分类列表展示。
+- 分类新增、修改和删除。
+- 文章分类选择组件封装。
 
-```sh
-pnpm dev
-```
+**前端工程化**
+- 基于 Vue Router 实现模块化页面导航。
+- 基于 Pinia 统一管理用户状态。
+- 封装 Axios 请求与响应拦截器，实现统一错误提示及登录失效处理。
+- 将文章、分类和用户相关请求按业务模块进行封装，提高代码可维护性。
 
-### Compile and Minify for Production
+## 项目说明
 
-```sh
-pnpm build
-```
+本项目为前端实践项目，重点在于 Vue 3 组件化开发、后台管理系统的业务交互、状态管理及前后端接口对接。
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+后端接口由独立服务提供，本仓库仅包含前端代码。
