@@ -21,6 +21,24 @@
 - JavaScript
 - SCSS
 
+## 项目预览
+
+建议在此展示项目实际截图：
+
+- 登录与注册页面
+- <img width="1265" height="1326" alt="image" src="https://github.com/user-attachments/assets/5a61a911-c3d1-4d57-8473-986172afd518" />
+<img width="1269" height="1324" alt="image" src="https://github.com/user-attachments/assets/e66d9b9f-054f-4478-8230-77e7e65dd292" />
+
+- 文章列表及筛选页面
+- <img width="1263" height="1322" alt="image" src="https://github.com/user-attachments/assets/436038f2-212a-44b9-81c6-f6626e2137c8" />
+
+- 文章编辑与富文本编辑器
+- <img width="1269" height="1325" alt="image" src="https://github.com/user-attachments/assets/64b8b97a-cbdd-4912-bcae-255cd5d34590" />
+
+- 个人中心页面
+- <img width="1261" height="1318" alt="image" src="https://github.com/user-attachments/assets/1aaee5c5-d259-4bcd-bea8-39f754e52741" />
+
+
 ## 核心功能
 
 ### 用户管理
